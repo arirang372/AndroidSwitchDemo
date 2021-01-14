@@ -11,17 +11,17 @@ import androidx.appcompat.widget.SwitchCompat;
 public class CustomSwitch extends Switch {
     public CustomSwitch(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        setUpUI(context);
+        //setUpUI(context);
     }
 
     public CustomSwitch(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        setUpUI(context);
+       // setUpUI(context);
     }
 
     public CustomSwitch(@NonNull Context context) {
         super(context);
-        setUpUI(context);
+       // setUpUI(context);
     }
 
     private void setUpUI(Context context){
