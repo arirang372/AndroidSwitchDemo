@@ -18,5 +18,12 @@
         android:thumb="@drawable/custom_thumb"
         app:track="@drawable/custom_track"/>
 
+    <com.john.switchdemo.CustomSwitch
+        android:id="@+id/switch2"
+        style="@style/SwitchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/switch1" />
 
 </RelativeLayout>

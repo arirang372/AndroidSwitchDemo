@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -6,5 +7,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="SwitchTheme" >
+        <item name="android:scaleX">2</item>
+        <item name="android:scaleY">2</item>
+        <item name="android:thumb">@drawable/custom_thumb</item>
+        <item name="android:track">@drawable/custom_track</item>
+    </style>
 </resources>
