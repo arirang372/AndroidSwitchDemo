@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SwitchDemo</string>
+    <string name="redx"><![CDATA[<b><font color=#FF0000>X</font></b>]]></string>
+    <string name="checkmark"><![CDATA[<b><font color=#60f542>&#x2713;</font></b>]]></string>
 </resources>

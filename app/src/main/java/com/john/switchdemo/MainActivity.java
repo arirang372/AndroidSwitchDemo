@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.Html;
 import android.text.TextWatcher;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 //    EditText editTextOne;
@@ -53,5 +55,11 @@ public class MainActivity extends AppCompatActivity {
 //                }
 //            }
 //        });
+        TextView textView1 = findViewById(R.id.textView1);
+        TextView textView2 = findViewById(R.id.textView2);
+        textView1.setText(Html.fromHtml(getString(R.string.redx)));
+        textView2.setText(Html.fromHtml(getString(R.string.checkmark)));
+
+
     }
 }
